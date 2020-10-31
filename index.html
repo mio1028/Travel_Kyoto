@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- theme -->
+    <link rel="stylesheet" href="themes/20201031_PINK.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+    <link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- 字體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Pacifico&display=swap" rel="stylesheet">
+    
+    <!-- icon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <title>京都旅遊</title>
+    <style>
+        .ui-body-c, .ui-header {
+        font-family: 'Noto Sans TC', sans-serif;
+        }
+        .ui-footer {
+            font-family: 'Caveat', cursive;
+        }
+        .video-wrapper{
+        position: relative;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        }
+        .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div data-role="page" id="page00">
+
+        <div data-role="header">
+            <h1>京都旅遊</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h2>Let's travel around Kyoto in Japan. (๑•̀ㅂ•́)و✧</h2>
+
+            <div class="indeximg">
+                <img src="images/index_kyoto-yado-1.jpg" alt="" width="100%" height="70%">
+            </div>
+            
+            <a href="#page01" data-transition="slide" data-role="button" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">城市歷史</a>
+            <a href="#page02" data-transition="slide" data-role="button" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">當地美食</a>
+            <a href="#page03" data-transition="slide" data-role="button" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">特色祭典</a>
+            <a href="#page04" data-transition="slide" data-role="button" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">必去景點</a>
+            <a href="#page05" data-transition="slide" data-role="button" class="ui-btn ui-icon-arrow-r ui-btn-icon-right">關於我們</a>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>Copyright &copy; 2020/10/31 1108211088張文玲</h4>
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
+
+    <div data-role="page" id="page01">
+        
+        <div data-role="header">
+            <a href="#page00" data-transition="slide" data-direction="reverse" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>京都歷史</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h2>About Kyoto (｡･∀･)ﾉﾞ</h2>
+            <p><b>京都</b> (きょうと/Kyoto)，其歷史起於8世紀建立的「<b>平安京</b>」，於794年起被定為日本首都，此後發展成為<b>日本中古及近代重要的政治與文化中心</b>，至1869年遷都東京為止。歷經千年的發展，京都與東京並列<b>為現今日本最具代表性的文化櫥窗</b>。</p>
+            <img src="images/history_1.jpg" alt="" width="100%" height="70%">
+            <div data-role="collapsible">
+                <h1>歷史發展</h1>
+                <p>京都自桓武天皇時期，從長岡京遷到平安京以後開始發展。為了擺脫南都奈良一帶寺院勢力的影響，784年，長岡京的建設者藤原種繼遭到反對勢力的暗殺。京都也是天智系為了擺脫天武系而建設起來的都城（794年）。
+                隨著平安律令逐漸式微，京都變成以鴨川和大內裡御所為中心的都市，在經濟上有所發展。鎌倉時代因政權轉移到鎌倉，相對其政治色彩日漸薄弱，而逐漸轉型成經濟城市。室町時代因為室町幕府位於京都，其政治色彩又開始復甦，另一方面為發展經濟，還衍生出所謂的「町眾」階層，是一種由富商及市紳所組成的自治團體。
+                在開啟日本戰國時代的應仁之亂中，京都幾乎被燒盡。此後被捲入戰亂中，一時衰弱下來。這時候的京都，分為上京和下京。在這之後，在織田信長和豐臣秀吉的保護以及「町眾」的支持下，又逐漸復興。特別是豐臣秀吉對都城進行了大規模的改造，對散落在各處的寺院進行建設，現在在京都的都市構造中還能看到當時的痕跡。
+                17世紀政治中心轉移到江戶（今東京）。明治維新以後設立京都府，將以前的京都分為「上京區」和「下京區」。1889年，上京區和下京區合併為京都府管轄下的京都市。</p>
+                </div>
+            <div data-role="collapsible">
+                <h1>京都建城初</h1>
+                <p>京都仿照中國唐朝的都城長安，建成了棋盤式的格局。在之後的發展中，雖然經歷了天正年間的豐臣秀吉的城市再開發，以及明治大正期間的道路擴建和有軌交通的建設，但京都的城市格局幾乎沒有什麼大更動。直到現在，京都的很多主要街道仍然沿用以前的名字。</p>
+                </div>
+            <img src="images/history_2.jpg" alt="" width="100%" height="70%">
+            <div data-role="collapsible">
+                <h1>現在的京都</h1>
+                <p>經過了一千多年的發展，京都的規模還是大了很多，古代平安京城區的位置大致位於現在京都市的上京區、中京區和下京區。在這三個約有20平方公里的區塊內，古代和現代的京都重疊在一起，漫步在其中的街道，你會發現兩者文化的美妙交融。你有機會一定要去拜訪這古今融合得宜的京都！</p>
+                </div>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>Copyright &copy; 2020/10/31 1108211088張文玲</h4>
+        </div><!-- /footer -->
+
+    </div><!-- /page01 -->
+
+    <div data-role="page" id="page02">
+        
+        <div data-role="header">
+            <a href="#page00" data-transition="slide" data-direction="reverse" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>京都美食</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h2>Tasty Food o(*°﹃°*)o</h2>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="https://livejapan.com/zh-tw/in-kansai/in-pref-kyoto/in-kyoto-station_to-ji-temple/article-a2000213/">
+                    <img src="images/food_1.jpg">
+                <h2>蕨餅(わらび餅)</h2>
+                <p>到日本京都旅遊， 蕨餅是必嚐的甜點。</p></a>
+                </li>
+            
+            
+                <li><a href="https://osaka.letsgojp.com/archives/56938">
+                    <img src="images/food_2.jpg">
+                <h2>拉麵</h2>
+                <p>到日本必吃美食之一就是拉麵！</p></a>
+                </li>
+            
+            
+                <li><a href="https://sharing-kyoto.com/tw/Eat-Drink/Wagashi">
+                    <img src="images/food_3.jpg">
+                <h2>和菓子(Wagashi)</h2>
+                <p>是傳統日式糖果，京都是和菓子的發源地，市內有很多百年老店。</p></a>
+                </li>
+
+
+                <li><a href="https://osaka.letsgojp.com/archives/68547">
+                    <img src="images/food_4.jpg">
+                <h2>生八橋</h2>
+                <p>八橋在日本的甜點世界被歸類為煎餅，特徵就是帶著香濃肉桂風味。</p></a>
+                </li>
+
+
+                <li><a href="https://blog.cutebox.org/%E4%BA%AC%E9%83%BD%E4%BA%AC%E6%A5%B5%E3%81%8B%E3%81%AD%E3%82%88%E9%B0%BB%E9%AD%9A%E9%A3%AF">
+                    <img src="images/food_5.jpg">
+                <h2>鰻魚飯</h2>
+                <p>鰻魚碳火直烤，還有超厚的玉子燒鰻魚飯。</p></a>
+                </li>
+
+
+                <li><a href="https://zh.compathy.net/magazine/2019/07/31/kyoto-desserts/">
+                    <img src="images/food_6.jpg">
+                <h2>甜點老舖 FUKUNAGA294・901</h2>
+                <p>小熊抹茶聖代、浮誇系草莓聖代、療癒系柚子聖代等</p></a>
+                </li>
+            </ul>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>Copyright &copy; 2020/10/31 1108211088張文玲</h4>
+        </div><!-- /footer -->
+
+    </div><!-- /page02 -->
+
+    <div data-role="page" id="page03">
+        
+        <div data-role="header">
+            <a href="#page00" data-transition="slide" data-direction="reverse" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>京都祭典</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h2>Tradtional Festival(。・ω・。)</h2>
+            <div data-role="main" class="ui-content">
+                 <h3>京都三大祭。</h3>
+                 <div data-role="collapsibleset">
+                  <div data-role="collapsible">
+                    <h3>葵祭</h3>
+                    <img src="images/festival_1.jpeg" alt="" width="100%" height="70%">
+                    <p>「葵祭」於<b>每年5月15日</b>舉行，是「<b>賀茂御祖神社（又稱下鴨神社）</b>」與「<b>賀茂別雷神社（又稱上賀茂神社）</b>」的例祭。身著平安貴族服飾的人們會從京都御所出發，途經下鴨神社，最後抵達上賀茂神社。遊行人數多達500人以上，優美的遊行隊伍走在初夏的京都大道上有如平安時代的繪卷一般。</p>
+                    <p>參與遊行的人和掛著竹簾的牛車身上都會以葵葉做裝飾，因此祭典取名為「葵祭」，不過其實正式名稱是「賀茂祭」，名稱的由來是為了平息風雨、祈求豐收因此舉行祭祀賀茂大神的祭典。</p>
+                  </div>
+                  <div data-role="collapsible">
+                    <h3>祇園祭</h3>
+                    <img src="images/festival_2.jpeg" alt="" width="100%" height="70%">
+                    <p>說到京都的夏日祭典，就不得不提「祇園祭」。祇園祭是<b>八坂神社</b>的祭典，從每年7月1日的吉符入儀式開始，一直到31日的疫神社夏越祭結束為止，舉辦<b>為期一個月</b>的祭典。</p>
+                    <p>平安時代京都曾經爆發瘟疫，當時為了祈求疫病退散便在神泉苑立起了66根矛（當時有66個藩國），以此祭拜祇園之神，這就是祇園祭的起源。祭典的看點之一就是7月17日舉行的「山鉾巡行」。山鉾是花車之意，上面垂掛著壁毯等豪華的裝飾品，絢麗奪目的樣子又被稱為移動美術館，目前已被指定為重要有形民俗文化財。</p>
+                  </div>
+                  <div data-role="collapsible">
+                    <h3>時代祭</h3>
+                    <img src="images/festival_3.jpeg" alt="" width="100%" height="70%">
+                    <p>為京都的秋天妝點色彩的「時代祭」是<b>平安神宮</b>的祭典，於<b>每年10月22日</b>舉辦，這天是「平安遷都之日」，也就是首都從長岡遷至平安京的日子。</p>
+                    <p>這是明治28年（1895年）時，為了紀念平安神宮創建及平安遷都1100年開始舉辦的活動。祭典的重點在於綿延2公里的時代遊行。遊行隊伍依歷史時期進行分類，由20個列隊重現明治維新、江戶、安土桃山、室町、吉野、鎌倉、藤原、延曆等八個時代。其中平安時代的列隊中，會有女子們扮演京都花街的藝妓，為這個時代遊行增添華麗光彩。</p>
+                  </div>
+                </div>
+              </div>
+              <div data-role="main" class="ui-content">
+                  <h3>其他祭典。</h3>
+                <div data-role="collapsibleset">
+                  <div data-role="collapsible">
+                    <h3>梅花祭</h3>
+                    <img src="images/festival_4.jpeg" alt="" width="100%" height="70%">
+                    <p>除了三大祭之外，還有一個一定要介紹的祭典，那就是<b>北野天滿宮</b>的「梅花祭」。北野天滿宮奉祀的是學問之神菅原道真，他的忌日是<b>2月25日</b>，而梅花祭便是在每年的這一天舉行。</p>
+                    <p>梅花祭時境內會舉辦一個和豐臣秀吉有關的茶道活動，名為「野點大茶湯（戶外茶會）」。北野天滿宮附近的京都五花街之一「上七軒」的藝妓和舞妓會來這裡為大家奉茶，再搭配日式點心一起享用。</p>
+                  </div>
+                  <div data-role="collapsible">
+                    <h3>御手洗祭</h3>
+                    <img src="images/festival_5.jpeg" alt="" width="100%" height="70%">
+                    <p><b>下鴨神社</b>裡的小神社之一「御手洗社」的祭典。平安時代的貴族每到季節交替的時候會進行淨身除惡的儀式，這便是御手洗祭的由來。</p>
+                    <p>御手洗祭別名「足浸神事」，於<b>每年7月的仲夏丑日前後</b>舉行，人們會將腳浸泡至神社內的御手洗池中，手拿蠟燭祈求無病消災。</p>
+                    <p>御手洗池也是葵祭的齋王代進行淨身神事時使用的神聖水池，即使在盛夏水溫也不到20度，非常冰涼。平常這裡是禁止進入的，唯有祭典期間才會開放給一般人。</p>
+                  </div>
+                </div>
+              </div>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>Copyright &copy; 2020/10/31 1108211088張文玲</h4>
+        </div><!-- /footer -->
+
+    </div><!-- /page03 -->
+
+    <div data-role="page" id="page04">
+        
+        <div data-role="header">
+            <a href="#page00" data-transition="slide" data-direction="reverse" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>京都景點</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h2>Best Attractions (*/ω＼*)</h2>
+            <h3>京都旅遊介紹影片</h3>
+            <div class="video-wrapper">    
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2as_h3O3TI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h3>必去景點</h3>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">
+                    <img src="images/attr_x063.jpg">
+                <h2>嵐山</h2>
+                <p>漫步優雅的嵐山美景。</p></a>
+                </li>
+            
+                <li><a href="#">
+                    <img src="images/attr_littleroad.jpg">
+                <h2>祇園花見小路</h2>
+                <p>舞妓或藝妓舞藝的「花街」。</p></a>
+                </li>
+            
+                <li><a href="#">
+                    <img src="images/attr_temple.jpg">
+                <h2>伏見稻荷大社</h2>
+                <p>上千個紅色鳥居排成隧道，一個個連接上稻荷山。</p></a>
+                </li>
+
+                <li><a href="#">
+                    <img src="images/attr_goldtemple.jpg">
+                <h2>金閣寺</h2>
+                <p>建築外觀以金箔裝飾，十分華麗。</p></a>
+                </li>
+
+                <li><a href="#">
+                    <img src="images/attr_lowduck.jpg">
+                <h2>下鴨神社</h2>
+                <p>靜靜感受日本神社氛圍的好地方。</p></a>
+                </li>
+
+                <li><a href="#">
+                    <img src="images/attr_duckriver.jpg">
+                <h2>鴨川</h2>
+                <p>貫穿京都的鴨川，有如京都的動脈一般，京都人的休閒時光。</p></a>
+                </li>
+
+                <li><a href="#">
+                    <img src="images/attr_market.jpg">
+                <h2>錦市場</h2>
+                <p>逛市場是認識京都人生活最好的方式。</p></a>
+                </li>
+
+                <li><a href="#">
+                    <img src="images/attr_store.jpg">
+                <h2>四条河原町</h2>
+                <p>建築外觀以金箔裝飾，十分華麗。</p></a>
+                </li>
+                
+            </ul>
+
+            <p>這裡簡單介紹幾個經典、遊客必去的京都景點，如果你還有甚麼建議的話，歡迎到「<a href="#page05">關於我們</a>」給我們建議唷！</p> 
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>Copyright &copy; 2020/10/31 1108211088張文玲</h4>
+        </div><!-- /footer -->
+
+    </div><!-- /page04 -->
+
+    <div data-role="page" id="page05">
+        
+        <div data-role="header">
+            <a href="#page00" data-transition="slide" data-direction="reverse" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
+            <h1>關於我們</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <h2>About Us(・∀・(・∀・(・∀・*)</h2>
+
+                <h3>網頁內容設計起源</h3>
+            
+                <p>現在疫情還未停息，我們<b>無法</b>也<b>不要</b>選擇出國到國外遊玩。</p>
+                <p>這讓我想起我曾經到日本京都遊玩的回憶，藉由這次網頁期中，我也還想再回顧一次京都這個美麗的地方。</p>
+
+                <img src="images/IMG20180722193734.jpg" alt="" width="100%" height="70%">
+
+                <div data-role="main" class="ui-content">
+                    <a href="#comment" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">對我們的意見與反饋(゜▽゜*)♪</a>
+                
+                    <div data-role="popup" id="comment" class="ui-content">
+                        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">關閉</a>
+                        <form method="post" action="demo_form.php">
+                            <div class="ui-field-contain">
+                              <label for="fullname">你的大名：</label>
+                              <input type="text" name="fullname" id="fullname">       
+                              <label for="ques">問題&反饋：</label>
+                              <input type="text" name="ques" id="ques">
+                              <label for="email">E-mail:</label>
+                              <input type="email" name="email" id="email" placeholder="你的電子信箱...">
+                            </div>
+                            <input type="submit" data-inline="true" value="提交">
+                          </form>
+                    </div>
+
+                </div>
+
+            <p></p>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>Copyright &copy; 2020/10/31 1108211088張文玲</h4>
+        </div><!-- /footer -->
+
+    </div><!-- /page05 -->
+</body>
+</html>
